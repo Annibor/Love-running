@@ -27,6 +27,10 @@ h3 {
   color: #252525;
 }
 
+.hidden-heading {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -137,7 +141,7 @@ main {
 }
 
 #reasons > hr  {
-  border-top: 1px soild #3a3a3a;
+  border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
 
@@ -152,7 +156,7 @@ main {
   max-height: 300px;
 }
 
-benefits-image {
+#benefits-image {
   display: flex;
   align-items: center;
   justify-content: center;
